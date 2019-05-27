@@ -6,6 +6,7 @@
 |`git branch` | lists all LOCAL branches |
 |`git branch -av` | lists all branches including remote with description |
 |`git branch -d [branch name]` | deletes a local branch |
+|`git pull`| Updates the local branch with the remote branch|
 |`git checkout` | reint current branch |
 |`git checkout [branch name]` | switch working branch |
 |`git checkout -b [branch name]` | create a branch and switch to it |

@@ -11,6 +11,12 @@
 |`git checkout [branch name]` | switch working branch |
 |`git checkout -b [branch name]` | create a branch and switch to it |
 
+## Git Push
+| Command | Description |
+| ------- | ----------- |
+|`git push `|Push local commits to upstream branch|
+|`git push -u origin branch-name`|Create an upstream branch and push commits|
+
 
 ## Config File
 | Command | Description |
@@ -33,6 +39,7 @@
 |`git add [filename]`|Add file to staging|
 |`git commit -m "[msg]"`|Commit staging on local|
 
+## Stash
 | Command | Description |
 | ------- | ----------- |
 |`git stash`|Stash changes in a rough directory|

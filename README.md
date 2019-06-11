@@ -33,3 +33,7 @@
 |`git add [filename]`|Add file to staging|
 |`git commit -m "[msg]"`|Commit staging on local|
 
+## Rename Branch
+1) Rename Local Branch: `git branch -m <old-name> <new-name>`
+2) Replace Remote Branch: `git push origin :old-name <new-name>`
+3) Reset Upstream Branch: `git push origin -u <new-name>`

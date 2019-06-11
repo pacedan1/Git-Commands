@@ -33,6 +33,12 @@
 |`git add [filename]`|Add file to staging|
 |`git commit -m "[msg]"`|Commit staging on local|
 
+| Command | Description |
+| ------- | ----------- |
+|`git stash`|Stash changes in a rough directory|
+|`git stash pop`|Remove a single stash and apply it on the working tree
+|`git stash list`|Lists all stashes|
+
 ## Rename Branch
 1) Rename Local Branch: `git branch -m <old-name> <new-name>`
 2) Replace Remote Branch: `git push origin :old-name <new-name>`

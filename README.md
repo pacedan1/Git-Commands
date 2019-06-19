@@ -5,6 +5,7 @@
 | ------- | ----------- |
 |`git branch` | lists all LOCAL branches |
 |`git branch -av` | lists all branches including remote with description |
+|`git branch -vvv` | Show extra details for local branches |
 |`git branch -d [branch name]` | deletes a local branch |
 |`git pull`| Updates the local branch with the remote branch|
 |`git checkout` | reint current branch |
@@ -32,6 +33,7 @@
 |`git status`|Show status of the working tree|
 |`git status -s`|Show short status message|
 |`git diff [filename]`|Show differences in filename between commits|
+|`git diff --name-status <otherBranch>`|Compare only filenames between branches|
 
 ## Commits
 | Command | Description |
